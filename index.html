@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ROOTS Coffeeshop · Amsterdam &amp; Amersfoort</title>
+    <meta name="description" content="ROOTS runs three coffeeshops in the Netherlands. Bijlmer ArenA and Marnixstraat in Amsterdam, plus Amersfoort. Daily hours and locations here.">
+    <meta name="author" content="ROOTS Coffeeshop" />
+    <meta name="theme-color" content="#0F2A1F" />
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="ROOTS Coffeeshop · Amsterdam &amp; Amersfoort" />
+    <meta property="og:description" content="ROOTS runs three coffeeshops in the Netherlands. Bijlmer ArenA and Marnixstraat in Amsterdam, plus Amersfoort." />
+    <meta property="og:image" content="https://roots-renaissance-site.lovable.app/og-image.jpg" />
+    <meta property="og:url" content="https://roots-renaissance-site.lovable.app" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:locale:alternate" content="nl_NL" />
+    <meta property="og:site_name" content="ROOTS Coffeeshop" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ROOTS Coffeeshop · Amsterdam &amp; Amersfoort" />
+    <meta name="twitter:description" content="Three coffeeshops. Two cities. One family. ROOTS in Amsterdam Bijlmer ArenA, Marnixstraat, and Amersfoort." />
+    <meta name="twitter:image" content="https://roots-renaissance-site.lovable.app/og-image.jpg" />
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="/apple-touch-icon.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/manifest.json" />
+
+    <!-- Preload fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <!-- JSON-LD: brand-level Organization with three sub-locations -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "ROOTS Coffeeshop",
+      "url": "https://roots-renaissance-site.lovable.app",
+      "logo": "https://roots-renaissance-site.lovable.app/apple-touch-icon.png",
+      "sameAs": [
+        "https://www.instagram.com/roots_coffeeshop"
+      ],
+      "subOrganization": [
+        {
+          "@type": "Store",
+          "@id": "https://roots-renaissance-site.lovable.app/locations/bijlmer",
+          "name": "ROOTS Bijlmer ArenA",
+          "url": "https://roots-renaissance-site.lovable.app/locations/bijlmer",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Hoekenrode 14",
+            "postalCode": "1102 BR",
+            "addressLocality": "Amsterdam",
+            "addressCountry": "NL"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.3116467,
+            "longitude": 4.9485634
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+            "opens": "09:00",
+            "closes": "01:00"
+          }
+        },
+        {
+          "@type": "Store",
+          "@id": "https://roots-renaissance-site.lovable.app/locations/keteltje",
+          "name": "'T Keteltje",
+          "url": "https://roots-renaissance-site.lovable.app/locations/keteltje",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Marnixstraat 74",
+            "postalCode": "1015 VX",
+            "addressLocality": "Amsterdam",
+            "addressCountry": "NL"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.368735,
+            "longitude": 4.880708
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+            "opens": "09:00",
+            "closes": "01:00"
+          }
+        },
+        {
+          "@type": "Store",
+          "@id": "https://roots-renaissance-site.lovable.app/locations/amersfoort",
+          "name": "ROOTS Amersfoort",
+          "url": "https://roots-renaissance-site.lovable.app/locations/amersfoort",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Snouckaertlaan 30",
+            "postalCode": "3811 MB",
+            "addressLocality": "Amersfoort",
+            "addressCountry": "NL"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 52.1532231,
+            "longitude": 5.3826974
+          },
+          "openingHoursSpecification": {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+            "opens": "10:00",
+            "closes": "00:00"
+          }
+        }
+      ]
+    }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

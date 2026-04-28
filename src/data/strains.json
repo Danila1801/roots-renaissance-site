@@ -1,0 +1,98 @@
+{
+  "lastUpdated": "2026-04-15T10:00:00Z",
+  "categories": [
+    {
+      "id": "indica",
+      "name": "Indica",
+      "color": "indica",
+      "items": [
+        { "id": "white-widow", "name": "White Widow", "type": "indica", "taste": ["Woody", "Earthy"], "effect": "relaxing", "thc": "18-22%", "price1g": 8, "price5g": null, "inStock": true, "isFeatured": true, "description": "The classic Dutch strain. Balanced, gentle, a good starting point for beginners and a nostalgic favorite for regulars." },
+        { "id": "black-ice", "name": "Black Ice", "type": "indica", "taste": ["Menthol", "Pine"], "effect": "sleepy", "thc": "20-25%", "price1g": 11, "price5g": null, "inStock": true },
+        { "id": "enemy-of-the-state", "name": "Enemy of the State", "type": "indica", "taste": ["Pepper", "Woody", "Diesel"], "effect": "relaxing", "thc": "22-26%", "price1g": 12, "price5g": null, "inStock": true },
+        { "id": "galato", "name": "Galato", "type": "hybrid", "taste": ["Sweet", "Flowery", "Pepper"], "effect": "relaxing", "thc": "20-24%", "price1g": 12, "price5g": null, "inStock": true, "description": "Indica-dominant hybrid with a sweet, dessert-like profile." },
+        { "id": "black-runtz", "name": "Black Runtz", "type": "hybrid", "taste": ["Berry", "Sweet", "Citrus"], "effect": "relaxing", "thc": "22-28%", "price1g": 12, "price5g": null, "inStock": true, "description": "Indica-dominant hybrid with candy-like sweetness and deep relaxation." },
+        { "id": "purple-fuel", "name": "Purple Fuel", "type": "indica", "taste": ["Citrus", "Diesel", "Earthy"], "effect": "sleepy", "thc": "20-24%", "price1g": 12, "price5g": null, "inStock": true },
+        { "id": "cheese", "name": "Cheese", "type": "indica", "taste": ["Cheese", "Skunk", "Pungent"], "effect": "relaxing", "thc": "17-21%", "price1g": 5, "price5g": null, "inStock": true }
+      ]
+    },
+    {
+      "id": "caliweed",
+      "name": "Caliweed",
+      "color": "sativa",
+      "items": [
+        { "id": "blue-runtz", "name": "Blue Runtz", "type": "hybrid", "taste": ["Blueberry", "Vanilla"], "effect": "creative", "thc": "25-30%", "price1g": 14, "price5g": null, "inStock": true },
+        { "id": "permanent-marker", "name": "Permanent Marker", "type": "indica", "taste": ["Floral", "Earthy", "Chemical"], "effect": "relaxing", "thc": "28-34%", "price1g": 16, "price5g": null, "inStock": true, "isFeatured": true, "description": "The hype is real. Deep relaxation with an unforgettable aroma. A top staff pick for experienced smokers." },
+        { "id": "crunch-berries", "name": "Crunch Berries", "type": "hybrid", "taste": ["Tropical", "Ammonia"], "effect": "energizing", "thc": "25-30%", "price1g": 16, "price5g": null, "inStock": true },
+        { "id": "sklattt", "name": "Sklattt", "type": "hybrid", "taste": ["Sweet", "Fruity"], "effect": "creative", "thc": "26-32%", "price1g": 27, "price5g": null, "inStock": true },
+        { "id": "lobster", "name": "Lobster", "type": "hybrid", "taste": ["Creamy", "Earthy"], "effect": "relaxing", "thc": "25-30%", "price1g": 27, "price5g": null, "inStock": true },
+        { "id": "wagyu", "name": "Wagyu", "type": "hybrid", "taste": ["Rich", "Earthy", "Sweet"], "effect": "relaxing", "thc": "28-33%", "price1g": 27, "price5g": null, "inStock": true },
+        { "id": "gas-gimlet", "name": "Gas Gimlet", "type": "hybrid", "taste": ["Citrus", "Diesel"], "effect": "energizing", "thc": "26-31%", "price1g": 30, "price5g": null, "inStock": true },
+        { "id": "organic-orange", "name": "Organic Orange", "type": "sativa", "taste": ["Orange", "Citrus"], "effect": "energizing", "thc": "24-28%", "price1g": 27, "price5g": null, "inStock": true }
+      ]
+    },
+    {
+      "id": "sativa-hybrid",
+      "name": "Sativa / Hybrid",
+      "color": "sativa",
+      "items": [
+        { "id": "amnesia-haze", "name": "Amnesia (Haze)", "type": "sativa", "taste": ["Citrus", "Earthy", "Diesel"], "effect": "energizing", "thc": "20-25%", "price1g": 9, "price5g": 45, "inStock": true, "isFeatured": true, "description": "Amsterdam's signature strain. Uplifting, cerebral, perfect for a day out exploring the city." },
+        { "id": "white-cherry-gelato", "name": "White Cherry Gelato", "type": "hybrid", "taste": ["Berry", "Tropical", "Lemon", "Citrus"], "effect": "creative", "thc": "22-26%", "price1g": 11, "price5g": null, "inStock": true },
+        { "id": "lemon-haze", "name": "Lemon Haze", "type": "sativa", "taste": ["Lemon", "Citrus", "Sweet"], "effect": "energizing", "thc": "18-22%", "price1g": 12, "price5g": null, "inStock": true },
+        { "id": "cereal-milk", "name": "Cereal Milk", "type": "hybrid", "taste": ["Butter", "Vanilla", "Sweet"], "effect": "creative", "thc": "22-26%", "price1g": 12, "price5g": null, "inStock": true },
+        { "id": "amg-haze", "name": "AMG (Haze)", "type": "sativa", "taste": ["Spicy", "Herbal", "Diesel"], "effect": "energizing", "thc": "20-25%", "price1g": 13, "price5g": 50, "inStock": true }
+      ]
+    },
+    {
+      "id": "edibles",
+      "name": "Edibles",
+      "color": "edible",
+      "items": [
+        { "id": "dutch-butter-cookies", "name": "Dutch Butter Cookies", "type": "edible", "taste": ["Butter", "Sweet"], "effect": "relaxing", "thc": "~15mg", "price1g": 5, "price5g": null, "inStock": true, "description": "Traditional Dutch butter cookies infused with cannabis" },
+        { "id": "indica-space-cake", "name": "Indica Space Cake", "type": "edible", "taste": ["Chocolate", "Sweet"], "effect": "sleepy", "thc": "~25mg", "price1g": 5, "price5g": null, "inStock": true, "description": "Classic space cake with relaxing indica effect" },
+        { "id": "sativa-space-cake", "name": "Sativa Space Cake", "type": "edible", "taste": ["Vanilla", "Sweet"], "effect": "energizing", "thc": "~25mg", "price1g": 6, "price5g": null, "inStock": true, "description": "Classic space cake with uplifting sativa effect" },
+        { "id": "dope-cookies", "name": "Dope Cookies", "type": "edible", "taste": ["Chocolate", "Cookie"], "effect": "relaxing", "thc": "~20mg", "price1g": 6, "price5g": null, "inStock": true, "description": "Cannabis-infused cookies with a chocolatey flavor" },
+        { "id": "space-cake-bar", "name": "Space Cake Bar", "type": "edible", "taste": ["Cake", "Sweet"], "effect": "relaxing", "thc": "~30mg", "price1g": 6, "price5g": null, "inStock": true, "description": "Cannabis cake bar infused with cannabis" },
+        { "id": "space-pops", "name": "Space Pops", "type": "edible", "taste": ["Lollipop", "Fruity"], "effect": "creative", "thc": "~10mg", "price1g": 2, "price5g": null, "inStock": true, "description": "Cannabis-infused lollipops" },
+        { "id": "magnum-millionaire", "name": "Magnum Millionaire", "type": "edible", "taste": ["Strawberry", "Chocolate"], "effect": "relaxing", "thc": "~30mg", "price1g": 15, "price5g": null, "inStock": true, "description": "Strawberry & chocolate ice cream bar infused with cannabis" }
+      ]
+    },
+    {
+      "id": "hash",
+      "name": "Hash",
+      "color": "hash",
+      "items": [
+        { "id": "mimosa", "name": "Mimosa", "type": "hybrid", "taste": ["Citrus", "Orange", "Grape"], "effect": "energizing", "thc": "30-40%", "price1g": 10.50, "price5g": null, "inStock": true, "origin": "NL" },
+        { "id": "white-choco", "name": "White Choco", "type": "hybrid", "taste": ["Sweet", "Spicy", "Herbal"], "effect": "relaxing", "thc": "25-35%", "price1g": 4, "price5g": null, "inStock": true, "origin": "NL" },
+        { "id": "static-sift", "name": "Static Sift", "type": "hybrid", "taste": ["Earthy", "Herbal"], "effect": "relaxing", "thc": "35-45%", "price1g": 18, "price5g": null, "inStock": true, "origin": "NL" },
+        { "id": "platella", "name": "Platella", "type": "hybrid", "taste": ["Earthy", "Spicy"], "effect": "relaxing", "thc": "30-40%", "price1g": 25, "price5g": null, "inStock": true, "origin": "NL" }
+      ]
+    },
+    {
+      "id": "traditional-hash",
+      "name": "Traditional Hash",
+      "color": "hash",
+      "items": [
+        { "id": "super-polm-maroc", "name": "Super Polm", "type": "indica", "taste": ["Earthy", "Spicy", "Mint"], "effect": "relaxing", "thc": "20-30%", "price1g": 7, "price5g": null, "inStock": true, "origin": "MA" },
+        { "id": "tahoe-og-maroc", "name": "Tahoe OG", "type": "indica", "taste": ["Earthy", "Woody", "Sage"], "effect": "sleepy", "thc": "22-30%", "price1g": 10, "price5g": null, "inStock": true, "origin": "MA" },
+        { "id": "honing-maroc", "name": "Honing", "type": "indica", "taste": ["Honey", "Sweet"], "effect": "relaxing", "thc": "18-25%", "price1g": 11, "price5g": null, "inStock": true, "origin": "MA" },
+        { "id": "hiya-maroc", "name": "Hiya", "type": "sativa", "taste": ["Flowery", "Brown", "Spicy", "Herbal"], "effect": "energizing", "thc": "20-28%", "price1g": 12, "price5g": null, "inStock": true, "origin": "MA" }
+      ]
+    },
+    {
+      "id": "prerolled",
+      "name": "Pre-Rolled Joints",
+      "color": "preroll",
+      "items": [
+        { "id": "preroll-skunk", "name": "Skunk", "type": "indica", "taste": ["Skunk", "Earthy"], "effect": "relaxing", "thc": "15-20%", "price1g": 3, "price5g": null, "inStock": true },
+        { "id": "preroll-polm-hash", "name": "Polm (Hash)", "type": "indica", "taste": ["Earthy", "Spicy"], "effect": "relaxing", "thc": "20-25%", "price1g": 4, "price5g": null, "inStock": true },
+        { "id": "preroll-tahoe-og", "name": "Tahoe OG", "type": "hybrid", "taste": ["Earthy", "Lemon"], "effect": "relaxing", "thc": "22-28%", "price1g": 4, "price5g": null, "inStock": true },
+        { "id": "preroll-blue-berry", "name": "Blue Berry", "type": "indica", "taste": ["Berry", "Sweet"], "effect": "relaxing", "thc": "18-22%", "price1g": 4, "price5g": null, "inStock": true },
+        { "id": "preroll-haze", "name": "Haze", "type": "sativa", "taste": ["Citrus", "Earthy"], "effect": "energizing", "thc": "18-22%", "price1g": 5, "price5g": null, "inStock": true },
+        { "id": "preroll-kush", "name": "Kush", "type": "indica", "taste": ["Pine", "Earthy"], "effect": "relaxing", "thc": "20-25%", "price1g": 5, "price5g": null, "inStock": true },
+        { "id": "preroll-pure-bb", "name": "Pure BB", "type": "sativa", "taste": ["Sweet", "Earthy"], "effect": "energizing", "thc": "18-22%", "price1g": 7.50, "price5g": null, "inStock": true },
+        { "id": "preroll-pure-haze", "name": "Pure Haze", "type": "sativa", "taste": ["Citrus", "Herbal"], "effect": "energizing", "thc": "20-25%", "price1g": 8, "price5g": null, "inStock": true },
+        { "id": "preroll-cali", "name": "Cali", "type": "hybrid", "taste": ["Exotic", "Sweet"], "effect": "creative", "thc": "25-30%", "price1g": 10, "price5g": null, "inStock": true }
+      ]
+    }
+  ]
+}
